@@ -38,8 +38,19 @@
 
    <div class="text-box">
       <h1>David Kan</h1>
-      <p>This website was <a href="https://github.com/StreetLamp05/Blog" class="repo" target="_blank">created</a> to serve both as a digital portfolio and a blog.</p>
-      <p>This site is currently just a static website hosted using Amazon S3 <br>however, I have plans to make it dynamic using Amazon AWS Amplify<br> for the Blog, Photography, Music, and Contact pages.</p>
+      <p>This website was <a href="https://github.com/StreetLamp05/Blog" class="repo" target="_blank">created</a> to
+         serve both as a digital portfolio and a blog.</p>
+      <div class="text-container">
+         <p>This site is currently a static website originally hosted don Amazon S3, then moved onto GitHub Pages. I am
+            currently in the process of refactoring the website and migrating it to React. I plan to deploy it using
+            modern
+            CI/CD workflows to streamline updates and ensure continuous integration. This refactor will include adding
+            new
+            features, such as a personal blog to showcase past and future projects, as well as my experiences.
+            Additionally,
+            I want to create dedicated pages for my photography and music.</p>
+      </div>
+
       <a href="https://github.com/StreetLamp05" target="_blank" class="hero-btn"> Visit My GitHub Profile </a>
    </div>
 </section>
@@ -47,20 +58,21 @@
 
 
 
-   <!-----JavaScript for the Hamburger Menu in Mobile View----->
+<!-----JavaScript for the Hamburger Menu in Mobile View----->
 <script>
 
-var navLink = document.getElementById("navLinks");
+   var navLink = document.getElementById("navLinks");
 
-function showMenu(){
-   navLinks.style.right = "0";
-}
+   function showMenu() {
+      navLinks.style.right = "0";
+   }
 
-function hideMenu(){
-   navLinks.style.right = "-200px"
-}
+   function hideMenu() {
+      navLinks.style.right = "-200px"
+   }
 
 </script>
 
 </body>
+
 </html>

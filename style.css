@@ -95,6 +95,14 @@ figure {
    width: 100%
 }
 
+.text-container {
+   max-width: 1300px;
+   margin: 0 auto;
+   /* Center-align the text container */
+   padding: 0 20px;
+   /* Optional: adds some padding for better readability */
+}
+
 
 .text-box {
    width: 90%;
