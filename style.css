@@ -226,8 +226,12 @@ nav .fa {
 .details {
    width: 80%;
    margin: auto;
-   text-align: center;
+   text-align: left;
    padding-top: 100px;
+}
+
+.details-col i {
+   color: rgb(118, 90, 90);
 }
 
 
@@ -251,13 +255,17 @@ p {
 }
 
 .details-col {
-   flex-basis: 31%;
+   flex-basis: 33%;
    background: rgba(243, 155, 6, .35);
    border-radius: 10px;
    margin-bottom: 5%;
    padding: 20px 12px;
    box-sizing: border-box;
    transition: 0.7s;
+}
+
+.details-col ul {
+   padding-left: 10%;
 }
 
 h3 {
